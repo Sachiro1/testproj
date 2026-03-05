@@ -1,0 +1,78 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+
+
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("../images/bicol.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+	position: relative;
+	width: 90%;
+	height: 100px;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo {
+	font-size: 2em;
+	font-family: Lucida Handwriting;
+}
+
+
+.menu a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	font font-weight: 500;
+	font-family: Copperplate;
+	z-index: 1;
+}
+
+
+
+
+
+.explore a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 8px;
+	background: peachpuff;
+
+}
+
+.h-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 1000px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.h-text span{
+	color: black;
+	font-size: 2.5em;
+	font-family: Courier New;
+}
+
+.h-text h1{
+	color: floralwhite;
+	font-size: 5.5em;
+	font-family: Courier New;
+}
